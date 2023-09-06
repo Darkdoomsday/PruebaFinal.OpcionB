@@ -87,4 +87,4 @@ for card in articles:
 
 ***CONCLUSIÓN***
 
-La práctica ha sido concluida con éxito, sin embargo, es importante el seguir investigando y practicando con otros sitios web, dado que, la extracción de información o web scrapping como se lo denomina, es diferente en cada sitio. Esto debido a la construcción, lenguaje de programación y composición que tiene cada página propiamente hablando, por tanto, el código para la extracción de información puede variar.
+La práctica ha sido concluida con éxito, sin embargo, es importante el seguir investigando y practicando con otros sitios web, dado que, la extracción de información o web scrapping como se lo denomina, es diferente en cada sitio. Esto debido a la construcción, lenguaje de programación y composición que tiene cada página propiamente hablando, por tanto, el código para la extracción de información puede variar según sea el caso.

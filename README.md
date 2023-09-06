@@ -2,6 +2,8 @@
 ## Prueba Final de Ciberseguridad - 2023B - Opción B
 ### Esta práctica consistirá en tomar información de una fuente de datos en línea, para lo cual, hemos seleccionado juegos lúdicos y cuya segmentación estará orientada a juegos de mesa. El link de la página con la que trabajará, es la siguiente: [Juegos de la Mesa Redonda](https://juegosdelamesaredonda.com).
 
+![image](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/assets/140026173/f30f083f-f48d-4be6-a404-15859aedb745)
+
 **Requisitos Previos**
 
 1. Un entorno de desarrollo (IDE) como VSCode o Pycharm (Para esta práctica se hará uso de Pycharm).
@@ -28,7 +30,17 @@ Los link del código para poder realizar la práctica sería el siguiente:
 
 1. Acceso a página web, búsqueda y extración de información [main](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/blob/main/main.py).
 2. Clase de conexión e inserción de información a la base de MongoDB [db](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/blob/main/db.py).
-3. Librerías utilizadas de selenium y [requirements](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/blob/main/requirements.txt).
+3. Librerías utilizadas de selenium y MongoDB [requirements](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/blob/main/requirements.txt).
 4. Documento con credenciales de conexión a DB (no públicas (.env)).
 
 **Novedades en el Camino**
+
+Las novedades encontradas en el camino fue, en un inicio no se podía extraer los datos de la pseudo clase li:nth-child() dentro del código como elemento independiente,es decir, en la parte del código donde se extraía cada elemento antes de la impresión y a la función de inserción de la clase db.py, para su almacenamiento. Luego de varios intentos encontré la solución, en la sección donde extraía todo el contenedor, es decir, la parte de la página web que contenía todos los "child", coloqué el código "li:nth-child(n)", con el cuál y donde **n**, me permitió extraer todos los elementos según lo requerido.
+
+**Problema**
+
+![image](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/assets/140026173/2bbad2dc-666a-42a8-9180-614c7ff97ec7)
+
+**Solución**
+
+![image](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/assets/140026173/333665bd-3291-4490-89ae-44d4cae4e2c2)

@@ -1,12 +1,12 @@
 # Prueba Final de Ciberseguridad - 2023B - Opción B - Lectura de Datos
 ## Este código fue utilizado para la extracción de información (datos) que se encontraba en una base de datos en MongosDB del ejercicio antes mencionado.
 
-### **Esquema de la Práctica**
+### **ESQUEMA**
 
 ![image](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/assets/140026173/48c58580-888d-4798-b545-b0194ba40693)
 
 
-**La base de datos contiene la siguiente información:**
+**La base de datos ubicada en MongoDB, contiene la siguiente información:**
 
 ![image](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/assets/140026173/3954c0c6-412f-46ce-8328-ab3495ccc801)
 

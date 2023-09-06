@@ -1,7 +1,7 @@
 # Prueba Final de Ciberseguridad - 2023B - Opción B - Lectura de Datos
 ## Este código fue utilizado para la extracción de información (datos) que se encontraba en una base de datos en MongosDB del ejercicio antes mencionado.
 
-### **ESQUEMA**
+### ***ESQUEMA***
 
 ![image](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/assets/140026173/48c58580-888d-4798-b545-b0194ba40693)
 
@@ -15,7 +15,7 @@
 + ##### **NOMBRE DE BASE DE DATOS:** db_eig
 + ##### **COLECCIÓN:** cartas_juegosdemesa
 
-### **CÓDIGO**
+### ***CÓDIGO***
 
 Para la conexión y lectura de la información de la base de datos, se empleó el siguiente código.
 
@@ -57,11 +57,11 @@ read()
 
 ```
 
-### **RESULTADO**
+### ***RESULTADO***
 
 ![image](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/assets/140026173/0e987bb3-d277-4005-a18f-fac1d9ed1b24)
 
-### **CONCLUSIÓN**
+### ***CONCLUSIÓN***
 
 Como se puede apreciar, se logró obtener la información de la base de datos, donde, se consideró la colección "juegodecartas" para poderla importar.
 

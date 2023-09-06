@@ -1,4 +1,4 @@
-# PruebaFinal.OpcionB
+![image](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/assets/140026173/7a55f135-d042-4078-bfce-1801ff2d3f3e)# PruebaFinal.OpcionB
 ## Prueba Final de Ciberseguridad - 2023B - Opción B
 ### Esta práctica consistirá en tomar información de una fuente de datos en línea, para lo cual, hemos seleccionado juegos lúdicos y cuya segmentación estará orientada a juegos de mesa. El link de la página con la que trabajará, es la siguiente: [Juegos de la Mesa Redonda](https://juegosdelamesaredonda.com).
 
@@ -39,8 +39,17 @@ Las novedades encontradas en el camino fue, en un inicio no se podía extraer lo
 
 **Problema**
 
-![image](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/assets/140026173/2bbad2dc-666a-42a8-9180-614c7ff97ec7)
+![image](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/assets/140026173/dd484a80-b0db-4139-b73b-8d315fed4bad)
+
+Cabe indicar que incluso, al retirar el código "li:nth-child(*)", me entregaba únicamente el primer registro.
+
+![image](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/assets/140026173/92fca084-50a8-4451-99ec-613d89c4f1d5)
 
 **Solución**
 
 ![image](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/assets/140026173/333665bd-3291-4490-89ae-44d4cae4e2c2)
+
+![image](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/assets/140026173/c54d485d-1a65-4bb0-8f9e-d085126636b4)
+
+![image](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/assets/140026173/6c9eba7e-e4d4-4ee1-a00e-b47e6a91f30a)
+

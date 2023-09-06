@@ -1,4 +1,3 @@
-![image](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/assets/140026173/7a55f135-d042-4078-bfce-1801ff2d3f3e)# PruebaFinal.OpcionB
 ## Prueba Final de Ciberseguridad - 2023B - Opción B
 ### Esta práctica consistirá en tomar información de una fuente de datos en línea, para lo cual, hemos seleccionado juegos lúdicos y cuya segmentación estará orientada a juegos de mesa. El link de la página con la que trabajará, es la siguiente: [Juegos de la Mesa Redonda](https://juegosdelamesaredonda.com).
 

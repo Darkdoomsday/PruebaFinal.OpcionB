@@ -25,9 +25,9 @@ for card in articles:
         print(f"{price}")
 
         juegos = {
-            "title": title,
-            "description": description,
-            "price": price
+            "Título": title,
+            "Descripción": description,
+            "Precio": price
         }
 
 

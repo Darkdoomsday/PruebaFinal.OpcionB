@@ -1,5 +1,7 @@
-## Prueba Final de Ciberseguridad - 2023B - Opción B
-### Esta práctica consistirá en tomar información de una fuente de datos en línea, para lo cual, hemos seleccionado juegos lúdicos y cuya segmentación estará orientada a juegos de mesa. El link de la página con la que trabajará, es la siguiente: [Juegos de la Mesa Redonda](https://juegosdelamesaredonda.com).
+# Prueba Final de Ciberseguridad - 2023B - Opción B
+## Esta práctica consistirá en tomar información de una fuente de datos en línea, para lo cual, hemos seleccionado juegos lúdicos y cuya segmentación estará orientada a juegos de mesa.
+
+### El link de la página con la que trabajará, será la siguiente: [Juegos de la Mesa Redonda](https://juegosdelamesaredonda.com).
 
 ![image](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/assets/140026173/f30f083f-f48d-4be6-a404-15859aedb745)
 
@@ -27,8 +29,8 @@
 
 Los link del código para poder realizar la práctica sería el siguiente:
 
-1. Acceso a página web, búsqueda y extración de información [main](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/blob/main/main.py).
-2. Clase de conexión e inserción de información a la base de MongoDB [db](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/blob/main/db.py).
+1. Archivo principal que permite acceso a página web, búsqueda y extración de información [main](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/blob/main/main.py).
+2. Archivo con la clase de conexión e inserción de información a la base de MongoDB [db](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/blob/main/db.py).
 3. Librerías utilizadas de selenium y MongoDB [requirements](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/blob/main/requirements.txt).
 4. Documento con credenciales de conexión a DB (no públicas (.env)).
 
@@ -48,7 +50,41 @@ Cabe indicar que incluso, al retirar el código "li:nth-child(*)", me entregaba 
 
 ![image](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/assets/140026173/333665bd-3291-4490-89ae-44d4cae4e2c2)
 
+```py
+articles = driver.find_elements(By.CSS_SELECTOR, "#center_column > ul > li:nth-child(n) > div")
+
+mongodb = MongoDriver()
+
+for card in articles:
+    try:
+        #image = card.find_element(By.CSS_SELECTOR, "div > div > div.left-block2.col-xs-4.col-xs-4.col-md-3 > div > a > img").image
+        title = card.find_element(By.CSS_SELECTOR, "div > div > div.center-block2.col-xs-4.col-xs-7.col-md-6 > h3 > a").text
+        description = card.find_element(By.CSS_SELECTOR, "div > div > div.center-block2.col-xs-4.col-xs-7.col-md-6 > p").text
+        price = card.find_element(By.CSS_SELECTOR, "div > div > div.right-block2.col-xs-4.col-xs-7.col-md-3 > div > div.content_price.col-xs-12.col-md-12 > span").text
+        print(title)
+        print(description)
+        print(f"{price}")
+
+        juegos = {
+            "Título": title,
+            "Descripción": description,
+            "Precio": price
+        }
+
+
+
+        mongodb.insert_record(record=juegos, username="cartas")
+
+        print("++++++++++++++++++++++++++++++++")
+    except Exception as e:
+        print(e)
+        print("++++++++++++++++++++++++++++++++")
+```
+
 ![image](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/assets/140026173/c54d485d-1a65-4bb0-8f9e-d085126636b4)
 
 ![image](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/assets/140026173/6c9eba7e-e4d4-4ee1-a00e-b47e6a91f30a)
 
+***CONCLUSIÓN***
+
+La práctica ha sido concluida con éxito, sin embargo, es importante el seguir investigando y practicando con otros sitios web, dado que, la extracción de información o web scrapping como se lo denomina, es diferente en cada sitio. Esto debido a la construcción, lenguaje de programación y composición que tiene cada página propiamente hablando, por tanto, el código para la extracción de información puede variar.

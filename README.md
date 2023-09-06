@@ -1,5 +1,5 @@
 # Prueba Final de Ciberseguridad - 2023B - Opción B
-## Esta práctica consistirá en tomar información de una fuente de datos en línea (página wb), para lo cual, hemos seleccionado juegos lúdicos y cuya segmentación estará orientada a juegos de mesa.
+## Esta práctica consistirá en tomar información de una fuente de datos en línea (página web), para lo cual, hemos seleccionado juegos lúdicos y cuya segmentación estará orientada a juegos de mesa.
 
 + ### El link de la página con la que trabajará, será la siguiente: [Juegos de la Mesa Redonda](https://juegosdelamesaredonda.com).
 

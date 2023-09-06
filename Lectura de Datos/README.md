@@ -10,13 +10,12 @@
 
 ![image](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/assets/140026173/3954c0c6-412f-46ce-8328-ab3495ccc801)
 
-***Donde;***
+##### ***Donde;***
 
-**Nombre de Base de Datos:** db_eig
++ ##### **NOMBRE DE BASE DE DATOS:** db_eig
++ ##### **COLECCIÓN:** cartas_juegosdemesa
 
-**Collección:** cartas_juegosdemesa
-
-**CÓDIGO**
+### **CÓDIGO**
 
 Para la conexión y lectura de la información de la base de datos, se empleó el siguiente código.
 
@@ -58,11 +57,11 @@ read()
 
 ```
 
-**RESULTADO**
+### **RESULTADO**
 
 ![image](https://github.com/Darkdoomsday/PruebaFinal.OpcionB/assets/140026173/0e987bb3-d277-4005-a18f-fac1d9ed1b24)
 
-**CONCLUSIÓN**
+### **CONCLUSIÓN**
 
 Como se puede apreciar, se logró obtener la información de la base de datos, donde, se consideró la colección "juegodecartas" para poderla importar.
 
